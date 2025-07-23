@@ -43,7 +43,7 @@ const Hero = () => {
       .to(".left-leaf", { y: -200 }, 0);
 
     const startValue = isMobile ? "top 50%" : "center 60%";
-    const endValue = isMobile ? "120% top" : "bottom top";
+    const endValue = isMobile ? "195% top" : "bottom top";
 
     const tl = gsap.timeline({
       scrollTrigger: {
@@ -78,7 +78,7 @@ const Hero = () => {
         />
         <div className="body">
           <div className="content">
-            <div className="space-y-5 mt-12 hidden md:block">
+            <div className="space-y-5 hidden md:block">
               <p>Cool. Crisp. Classic.</p>
               <p className="subtitle">
                 Sip the Spirit <br /> of Summer

@@ -118,10 +118,10 @@ body {
         }
 
         .view-cocktails {
-          @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full;
+          @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full flex flex-col items-center;
 
           p {
-            @apply text-left;
+            @apply text-center;
           }
 
           a {
@@ -140,15 +140,15 @@ body {
     @apply relative min-h-dvh w-full overflow-hidden;
 
     #c-left-leaf {
-      @apply absolute left-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3;
+      @apply absolute left-0 md:bottom-0 md:top-auto top-10 md:w-fit w-1/3;
     }
 
     #c-right-leaf {
-      @apply absolute right-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3;
+      @apply absolute right-0 md:bottom-0 md:top-auto top-10 md:w-fit w-1/3;
     }
 
     .list {
-      @apply container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-40 2xl:px-0 px-5;
+      @apply container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-60 md:pt-40 2xl:px-0 px-5;
 
       .popular {
         @apply space-y-8 w-full md:w-fit;
