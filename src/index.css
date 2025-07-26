@@ -185,7 +185,7 @@ body {
   }
 
   #about {
-    @apply min-h-screen py-28 2xl:px-0 md:px-5 container mx-auto;
+    @apply min-h-screen py-4 2xl:px-0 md:px-5 container mx-auto;
 
     .content {
       @apply flex col-center text-center gap-5
@@ -259,14 +259,15 @@ body {
 
     .masked-container {
       h2 {
-        @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-32;
+        @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-5;
       }
 
       div {
-        @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-5 bottom-52 left-1/2 -translate-x-1/2;
+        @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-0 left-1/2 -translate-x-1/2;
 
         h3 {
-          @apply md:text-5xl text-2xl text-center font-serif md:w-full w-80 text-white;
+          /* @apply md:text-5xl text-2xl text-center font-serif md:w-full text-white max-w-max; */
+          @apply md:text-5xl text-2xl text-center font-serif text-white mx-auto w-max;
         }
 
         p {
