@@ -55,8 +55,8 @@ const Menu = () => {
           scrub: true,
         },
       })
-      .to("#m-right-leaf", { y: 200, x: -100 })
-      .to("#m-left-leaf", { y: -300 }, 0);
+      .to("#slider-right-leaf", { y: 200 }, 0)
+      .to("#slider-left-leaf", { y: -300 }, 0);
   }, [currentIndex]);
 
   const totalCocktails = sliderLists.length;
@@ -78,8 +78,16 @@ const Menu = () => {
 
   return (
     <section id="menu" aria-labelledby="menu-heading">
-      <img src="/images/slider-left-leaf.png" alt="l-leaf" id="m-left-leaf" />
-      <img src="/images/slider-right-leaf.png" alt="r-leaf" id="m-right-leaf" />
+      <img
+        src="/images/hero-left-leaf.png"
+        alt="l-leaf"
+        id="slider-left-leaf"
+      />
+      <img
+        src="/images/hero-right-leaf.png"
+        alt="r-leaf"
+        id="slider-right-leaf"
+      />
 
       <h2 id="menu-heading" className="sr-only">
         Cocktail Menu
