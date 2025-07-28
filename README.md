@@ -1,16 +1,3 @@
-je veux que ce readme soit écris comme si je l'écrivais pour présenter mon projet a des développeurs ou des futurs employeurs ou entreprise qui irait sur mon repository <div align="center">
-<br />
-<a href="https://www.youtube.com/watch?v=AW1yfBKRMKc" target="_blank">
-<img src="public/readme/hero.png" alt="Project Banner">
-</a>
-<br />
-
-   <div>
-    <img src="https://img.shields.io/badge/-React-blue?style=for-the-badge&logo=react&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  </div>
-
   <h3 align="center">Stunning GSAP Cocktail Website</h3>
 
 </div>
@@ -74,7 +61,7 @@ Make sure you have the following installed on your machine:
 
 ```bash
 git clone https://github.com/CHBNDJ/GSAP-Cocktail-Landing
-cd gsap_cocktails
+cd GSAP-Cocktail-Landing
 ```
 
 **Installation**
