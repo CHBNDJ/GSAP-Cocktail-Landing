@@ -79,12 +79,12 @@ const Menu = () => {
   return (
     <section id="menu" aria-labelledby="menu-heading">
       <img
-        src="/images/hero-left-leaf.png"
+        src="/images/slider-left-leaf.png"
         alt="l-leaf"
         id="slider-left-leaf"
       />
       <img
-        src="/images/hero-right-leaf.png"
+        src="/images/slider-right-leaf.png"
         alt="r-leaf"
         id="slider-right-leaf"
       />
@@ -115,7 +115,7 @@ const Menu = () => {
       <div className="content">
         <div className="arrows">
           <button
-            className="text-left"
+            className="text-left flex items-start flex-col gap-5"
             onClick={() => goToSlide(currentIndex - 1)}
           >
             <span>{prevCocktail.name}</span>
@@ -123,10 +123,11 @@ const Menu = () => {
               src="/images/left-arrow.png"
               alt="left-arrow"
               aria-hidden="true"
+              className="w-9 h-9"
             />
           </button>
           <button
-            className="text-left"
+            className="text-right flex items-end flex-col gap-5"
             onClick={() => goToSlide(currentIndex + 1)}
           >
             <span>{nextCocktail.name}</span>
@@ -134,6 +135,7 @@ const Menu = () => {
               src="/images/right-arrow.png"
               alt="right-arrow"
               aria-hidden="true"
+              className="w-9 h-9"
             />
           </button>
         </div>

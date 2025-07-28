@@ -8,7 +8,7 @@ const Art = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
   useGSAP(() => {
-    const start = isMobile ? "top 20%" : "top top";
+    const start = isMobile ? "top 15%" : "top 10%";
 
     const maskTimeline = gsap.timeline({
       scrollTrigger: {
@@ -41,10 +41,10 @@ const Art = () => {
   });
   return (
     <div id="art">
-      <div className="container mx-auto h-full pt-20">
+      <div className="container mx-auto h-full">
         <h2 className="will-fade">The ART</h2>
         <div className="content">
-          <ul className="space-y-4 will-fade">
+          <ul className="space-y-4 will-fade self-start">
             {goodLists.map((feature, index) => (
               <li key={index} className="flex items-center gap-2">
                 <img src="/images/check.png" alt="check" />
@@ -52,7 +52,7 @@ const Art = () => {
               </li>
             ))}
           </ul>
-          <div className="cocktail-img">
+          <div className="cocktail-img self-center">
             <img
               src="/images/under-img.jpg"
               alt="cocktail"
@@ -60,11 +60,11 @@ const Art = () => {
             />
           </div>
 
-          <ul className="space-y-4 will-fade">
+          <ul className="space-y-4 will-fade self-end w-fit">
             {featureLists.map((feature, index) => (
-              <li key={index} className="flex items-center justify-start gap-2">
+              <li key={index} className="flex items-center gap-2">
                 <img src="/images/check.png" alt="check" />
-                <p className="md:w-fit w-60">{feature}</p>
+                <p>{feature}</p>
               </li>
             ))}
           </ul>

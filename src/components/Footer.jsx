@@ -35,25 +35,15 @@ const Footer = () => {
           scrub: true,
         },
       })
-      .to("#f-left-leaf", { y: -250 }, 0)
+      .to("#f-left-leaf", { y: -100 }, 0)
       .to("#f-right-leaf", { y: 200 }, 0);
   });
-
-  //  .to("#f-left-leaf", {
-  //     y: "-100",
-  //     duration: 1,
-  //     ease: "power1.inOut",
-  //   })
-  //   .to("#f-right-leaf", {
-  //     y: "100",
-  //     duration: 1,
-  //     ease: "power1.inOut",
-  //   });
 
   return (
     <footer id="contact">
       <img src="/images/footer-right-leaf.png" alt="r-leaf" id="f-right-leaf" />
       <img src="/images/footer-left-leaf.png" alt="l-leaf" id="f-left-leaf" />
+      <img src="/images/footer-drinks.png" alt="drink" className="drink-img" />
 
       <div className="content">
         <h2>Where to Find Us</h2>
