@@ -1,6 +1,8 @@
   <h3 align="center">Stunning GSAP Cocktail Website</h3>
 
-</div>
+  <p align="center">
+  🌐 <a href="https://gsap-pisco-sour-landing-website.vercel.app/" target="_blank">Live Demo</a>
+</p>
 
 ## 📋 <a name="table">Table of Contents</a>
 
