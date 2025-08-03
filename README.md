@@ -13,7 +13,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Build and deploy a stunning GSAP-powered cocktail website using React and Tailwind CSS—a modern, scroll-driven experience packed with advanced animations. Bring your design to life with dynamic SplitText reveals, smooth parallax scrolling, and scroll-triggered effects using GSAP’s ScrollTrigger. Lock sections in place with pinned animations, sync video playback to scroll position for cinematic storytelling, and enhance visual impact with scroll-based image masking. Create a custom animated carousel, craft seamless timeline animations across sections, and ensure a fully responsive UI that adapts beautifully across all screen sizes.
+A sleek and interactive cocktail landing page built with React, Tailwind CSS, and GSAP. It delivers a smooth, scroll-driven experience featuring rich animations like SplitText reveals, scroll-triggered transitions, parallax effects, and video syncing. Designed to be fully responsive and visually engaging, this project showcases advanced animation techniques and modern UI design.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
